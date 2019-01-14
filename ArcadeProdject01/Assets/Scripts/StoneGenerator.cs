@@ -16,8 +16,11 @@ public class StoneGenerator : MonoBehaviour {
 
 
 	public float fallspeed;
-	public float respawnrate;
+	public float respawntime;
+    public float random; 
 
+
+    private 
 
 
 	// Use this for initialization

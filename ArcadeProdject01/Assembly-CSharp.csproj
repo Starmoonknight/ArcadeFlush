@@ -61,6 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\StoneGenerator.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/linnealjung/_Skola Fryshuset/Unity/Programering 01/ArcadeFlush/ArcadeProdject01/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
