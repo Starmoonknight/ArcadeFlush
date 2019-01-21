@@ -77,11 +77,11 @@
 -r:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
 -r:"/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
--r:"/Users/Lucifer/Documents/GitHub/ArcadeFlush/ArcadeProdject01/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll"
--r:"/Users/Lucifer/Documents/GitHub/ArcadeFlush/ArcadeProdject01/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll"
--r:"/Users/Lucifer/Documents/GitHub/ArcadeFlush/ArcadeProdject01/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
--r:"/Users/Lucifer/Documents/GitHub/ArcadeFlush/ArcadeProdject01/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
--r:"/Users/Lucifer/Documents/GitHub/ArcadeFlush/ArcadeProdject01/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+-r:"/Users/linnealjung/_Skola Fryshuset/Unity/Programering 01/ArcadeFlush/ArcadeProdject01/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll"
+-r:"/Users/linnealjung/_Skola Fryshuset/Unity/Programering 01/ArcadeFlush/ArcadeProdject01/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll"
+-r:"/Users/linnealjung/_Skola Fryshuset/Unity/Programering 01/ArcadeFlush/ArcadeProdject01/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+-r:"/Users/linnealjung/_Skola Fryshuset/Unity/Programering 01/ArcadeFlush/ArcadeProdject01/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+-r:"/Users/linnealjung/_Skola Fryshuset/Unity/Programering 01/ArcadeFlush/ArcadeProdject01/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
 -r:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll"
 -r:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.dll"
 -r:"/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Core.dll"
@@ -102,13 +102,12 @@
 -define:UNITY_2018_1_OR_NEWER
 -define:UNITY_2018_2_OR_NEWER
 -define:UNITY_2018_3_OR_NEWER
--define:UNITY_2018_3_1
+-define:UNITY_2018_3_2
 -define:UNITY_2018_3
 -define:UNITY_2018
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
--define:UNITY_ANALYTICS
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
 -define:ENABLE_CLOTH
@@ -194,6 +193,7 @@
 -define:ENABLE_VSTU
 -define:UNITY_PRO_LICENSE
 "Assets/Scripts/EnemyAI.cs"
-"Assets/Scripts/SpawnManager.cs"
-"Assets/Scripts/StoneGenerator.cs"
+"Assets/Scripts/FreddeLand.cs"
+"Assets/Scripts/LinneasScript/InProgress/SpawnManager.cs"
+"Assets/Scripts/LinneasScript/InProgress/StoneGenerator.cs"
 "Assets/Scripts/Timer01.cs"
