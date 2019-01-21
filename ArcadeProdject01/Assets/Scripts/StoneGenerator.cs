@@ -5,35 +5,18 @@ using UnityEngine;
 public class StoneGenerator : MonoBehaviour {
 
 
-
-	public GameObject SpawnL1;
-	public GameObject SpawnL2;
-	public GameObject SpawnL3; 
-
-	public GameObject SpawnR1;
-	public GameObject SpawnR2;
-	public GameObject SpawnR3;
-
-
-	public float fallspeed;
-	public float respawntime;
-    public float random; 
-
-
-    private 
-
-
-	// Use this for initialization
-	void Start () {
-		print ("Hej");
-	}
+    public GameObject[] enemies;
+    public Transform[] spawnpointsL;
+    public Transform[] spawnpointsR;
+    private float count = 0;
+    [SerializeField] string[] listOfPossibleTags;
+    [SerializeField] GameObject[] objectspawn; 
+    [SerializeField] float timeBetweenSpawns = 3.0f; 
 
 
 
 
 
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+
 }
