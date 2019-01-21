@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{CEA8BB20-0133-86CD-0E08-BFA5A8F0BE7D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StoneGenerator.cs">
     <Files>
-      <File FileName="Assets/Scripts/StoneGenerator.cs" Line="24" Column="1" />
-      <File FileName="Assets/Scripts/SpawnManager.cs" Line="18" Column="1" />
-      <File FileName="Assets/Scripts/EnemyAI.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/StoneGenerator.cs" Line="25" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
