@@ -41,4 +41,11 @@ public class PlayerCtrl01 : MonoBehaviour
 
         }
     }
+    void OnTriggerStay(Collider trigger)
+    {
+       if (trigger.gameObject.tag == "Platform")
+        {
+            grounded = true;
+        }
+    }
 }
