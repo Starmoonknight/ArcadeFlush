@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 43
+  controlID: 27
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 44
+  controlID: 28
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 24
+  controlID: 29
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,13 +212,13 @@ MonoBehaviour:
     height: 485
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
   - {fileID: 15}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,9 +381,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 86270000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 36fbffffb8fbffff
+      m_ExpandedIDs: d4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -438,9 +438,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 6.48, z: 0.76}
+    m_Target: {x: -2.68, y: 4.7085567, z: -0.12687296}
     speed: 2
-    m_Value: {x: 0, y: 6.48, z: 0.76}
+    m_Value: {x: -2.68, y: 4.7085567, z: -0.12687296}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -468,13 +468,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.019805133, y: 0.018592998, z: -0.0003665338, w: -0.9996309}
+    m_Target: {x: -0.13778283, y: -0.03505643, z: 0.004881765, w: -0.98982954}
     speed: 2
-    m_Value: {x: -0.019805187, y: 0.018593049, z: -0.0003665348, w: -0.99963367}
+    m_Value: {x: -0.13778287, y: -0.035056442, z: 0.0048817666, w: -0.98982984}
   m_Size:
-    m_Target: 18.598366
+    m_Target: 18.94088
     speed: 2
-    m_Value: 18.598366
+    m_Value: 18.94088
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -550,20 +550,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/linnealjung/_Skola Fryshuset/Unity/Programering 01/ArcadeFlush/ArcadeProdject01
+  m_LastProjectPath: /Users/fredriknoresund/Documents/GitHub/ArcadeFlush/ArcadeProdject01
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 78260000
-    m_LastClickedID: 9848
-    m_ExpandedIDs: 00000000782600008027000000ca9a3b
+    m_SelectedIDs: b60b0000
+    m_LastClickedID: 2998
+    m_ExpandedIDs: 000000006e090000b60b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,7 +591,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000078260000
+    m_ExpandedIDs: 000000006e090000b60b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
