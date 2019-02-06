@@ -5,15 +5,15 @@ using UnityEngine;
 
 public class PlayerCtrl01 : MonoBehaviour
 {
-    public float jumpforce = 150f;
-    public Rigidbody rb;
+   float jumpforce = 150f;
+   // public Rigidbody rb;
     public float MoveSpeed = 0.2f;
 
     bool grounded;
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>(); 
+        //rb = GetComponent<Rigidbody>(); 
     }
 
     // Update is called once per frame
@@ -41,11 +41,21 @@ public class PlayerCtrl01 : MonoBehaviour
 
         }
     }
-    void OnTriggerStay(Collider trigger)
+    void OnTriggerStay2D(Collider2D trigger)
     {
-       if (trigger.gameObject.tag == "Platform")
+       if (trigger.gameObject.CompareTag("Grounded"))
         {
             grounded = true;
+            print("grounded");
+        }
+
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Grounded"))
+        {
+            grounded = false;
+            print("Not Grounded");
         }
     }
 }
