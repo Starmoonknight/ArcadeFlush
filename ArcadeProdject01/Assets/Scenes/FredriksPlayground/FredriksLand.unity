@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 286499368}
   m_Layer: 0
   m_Name: Platform (2)
-  m_TagString: 'Platform '
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 384204723}
   m_Layer: 0
   m_Name: Platform (10)
-  m_TagString: 'Platform '
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -607,7 +607,7 @@ GameObject:
   - component: {fileID: 538472110}
   m_Layer: 0
   m_Name: Platform (1)
-  m_TagString: 'Platform '
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1173,7 +1173,7 @@ GameObject:
   - component: {fileID: 1137033077}
   m_Layer: 0
   m_Name: Platform (4)
-  m_TagString: 'Platform '
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1521,7 +1521,7 @@ GameObject:
   - component: {fileID: 1399579038}
   m_Layer: 0
   m_Name: Platform (9)
-  m_TagString: 'Platform '
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1902,7 +1902,7 @@ GameObject:
   - component: {fileID: 1481476658}
   m_Layer: 0
   m_Name: Platform (7)
-  m_TagString: 'Platform '
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2006,7 +2006,7 @@ GameObject:
   - component: {fileID: 1505585736}
   m_Layer: 0
   m_Name: Platform (8)
-  m_TagString: 'Platform '
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2459,6 +2459,8 @@ GameObject:
   - component: {fileID: 1715627662}
   - component: {fileID: 1715627666}
   - component: {fileID: 1715627663}
+  - component: {fileID: 1715627668}
+  - component: {fileID: 1715627667}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Player
@@ -2571,7 +2573,46 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!61 &1715627667
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715627661}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.36}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1715627668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715627661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f4bd8f3a8964fec845dd9ff3b9f047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 0.2
 --- !u!1 &1824938939
 GameObject:
   m_ObjectHideFlags: 0
@@ -2677,7 +2718,7 @@ GameObject:
   - component: {fileID: 1905792094}
   m_Layer: 0
   m_Name: Platform (5)
-  m_TagString: 'Platform '
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2781,7 +2822,7 @@ GameObject:
   - component: {fileID: 2012062003}
   m_Layer: 0
   m_Name: Platform (3)
-  m_TagString: 'Platform '
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2885,7 +2926,7 @@ GameObject:
   - component: {fileID: 2113105281}
   m_Layer: 0
   m_Name: Platform (6)
-  m_TagString: 'Platform '
+  m_TagString: Grounded
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
