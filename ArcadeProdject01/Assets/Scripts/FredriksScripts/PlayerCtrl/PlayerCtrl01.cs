@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class PlayerCtrl01 : MonoBehaviour
 {
+
     float jumpforce = 6f;   // The force or the speed that the player jumps at.
     public float MoveSpeed = 0.2f;  // The speed which the player moves at.
     bool grounded;
@@ -46,6 +46,11 @@ public class PlayerCtrl01 : MonoBehaviour
         {
             grounded = true;
             print("grounded");
+        }
+       if (trigger.gameObject.CompareTag("Stone"))
+        {
+            this.gameObject.transform.position = new Vector2( -3.4f, 0.87f);
+            trigger.gameObject.SetActive(false);
         }
 
     }
