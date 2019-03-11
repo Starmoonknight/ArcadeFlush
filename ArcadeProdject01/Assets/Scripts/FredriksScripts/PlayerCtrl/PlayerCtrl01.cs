@@ -7,7 +7,19 @@ public class PlayerCtrl01 : MonoBehaviour
 
     float jumpforce = 6f;   // The force or the speed that the player jumps at.
     public float MoveSpeed = 0.2f;  // The speed which the player moves at.
+
     bool grounded;
+
+    public AudioClip Walk;
+    private AudioSource source;
+    private float volLowRange = .5f;
+    private float volHighRange = 1.0f;
+
+    private void Awake()
+    {
+        source = GetComponent<AudioSource>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
