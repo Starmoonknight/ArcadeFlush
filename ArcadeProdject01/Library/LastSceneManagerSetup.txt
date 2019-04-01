@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/PatrikPlayground/PatrikPlayground.unity
+- path: Assets/Scenes/PatrikPlayground/PatrikPlaygroud02.unity
   isLoaded: 1
   isActive: 1
